@@ -7,6 +7,30 @@
         <script src="js/main.js" defer></script>
     </head>
     <body>
-        <h1>Bem vindo ao desafio do PY</h1>
+        <main>
+            <h1>Criador de Personagem RPG</h1>
+         
+            <section class="form">
+                <form>
+                <label for="name">Nome do Personagem</label>
+                <input type="text" id="name">
+
+                <label for="strength">Força(Strength)</label>
+                <input type="number" id="strength">
+
+                <label for="intelligence">Inteligência(Intelligence)</label>
+                <input type="number" id="intelligence">
+
+                <label for="charisma">Carisma(Charisma)</label>
+                <input type="number" id="charisma">
+
+                <button type="button" id="btn-create">Criar Personagem</button>
+            </form>
+            </section>
+            <section class="area-result">
+                <h2>Ficha do Personagem</h2>
+                <pre id="result"></pre>
+            </section>
+        </main>
     </body>
 </html>
